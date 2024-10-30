@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: hwb(168 27% 11%);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: hsl(133, 73%, 45%);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 p {
@@ -14,4 +14,16 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
+}
+
+h2 {
+    color: hsl(249, 90%, 46%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+strong {
+    color: hsl(0, 79%, 45%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
