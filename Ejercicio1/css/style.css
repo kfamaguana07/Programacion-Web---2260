@@ -1,16 +1,16 @@
 body {
     background-color: hwb(168 27% 11%);
-    color: rgb(255, 255, 255);
+    color: #373636;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: hsl(133, 73%, 45%);
+    color: rgb(150, 201, 11);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 
 p {
-    color: #ffffff;
+    color: hsl(0, 0%, 11%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
