@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+h1 {
+    color: #0b53ac;
+    font-size: 80px;
+}
+
+h2{
+    color: #11b914;
+    font-size: 40px;
+    
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;  
+}
+
+footer{
+    text-align: center;
+    background-color: #06bba0;
+    font-size: 30px;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+#im{
+    border-radius: 50%;
+    width: 200px;
+}
+
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
