@@ -88,12 +88,3 @@ div li{
     font-size: 30px;
     color: #0a9e92;
 }
-
-.flexstyle{
-    margin: 0 auto;
-    border-color: #485a45;
-    background-color: #f7fcfb;
-    border-style: solid;
-    display: flex;
-    justify-content:space-evenly;
-}
