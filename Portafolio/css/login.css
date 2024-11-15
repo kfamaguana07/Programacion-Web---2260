@@ -1,0 +1,17 @@
+.login{
+    border-color: #06bba0;
+    margin-top: 20px;
+    border-width: 6px;
+    border-style: double;
+    justify-content: space-around;
+}
+
+div > label{
+    font-size: 30px;
+    color: #0a9e92;
+}
+
+div > ::placeholder{
+    font-size: 20px;
+    color: #28df22;
+}
