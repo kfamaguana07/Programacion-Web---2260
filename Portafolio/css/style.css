@@ -49,10 +49,22 @@ ul{
 }
 
 .Boton{
-    background-color: #0b53ac;
+    background-color: #06bba0;
     color: #000000be;
     font-family: 'Times New Roman', Times, serif;
     padding: 15px 32px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 18px;
+    border: 5px solid #6ac869be;
+}
+
+#btnBuscar{
+    background-color: #06bba0;
+    color: #000000be;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
@@ -60,14 +72,28 @@ ul{
     border: 5px solid #6ac869be;
 }
 
-#btnBuscar{
-    background-color: #0b53ac;
-    color: #000000be;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px 25px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    border-radius: 20px;
-    border: 5px solid #6ac869be;
+aside{
+    width: 10%;
+    padding: 5px;
+    float: right;
+}
+
+section > p{
+    font-size: 30px;
+    color: #3e8729;
+}
+
+
+div li{
+    font-size: 30px;
+    color: #0a9e92;
+}
+
+.flexstyle{
+    border-color: #06bba0;
+    margin-top: 20px;
+    border-width: 6px;
+    border-style: double;
+    display: flex;
+    justify-content: space-around;
 }
