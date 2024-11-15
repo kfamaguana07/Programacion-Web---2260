@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 { 
+h1 { /*elemento*/
+
     color: green;
 }
 
@@ -78,7 +79,7 @@ aside > h2{
     color: #0080a4;
 }
 
-.footer{
+.flexstyle{
     width: 60%;
     margin: 0 auto;
     border-color: #06bba0;
