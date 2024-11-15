@@ -1,0 +1,89 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 { /*elemento*/
+    color: green;
+}
+
+h2{
+    color: olive
+}
+
+dl{
+    text-align: left;
+}
+
+nav{
+    background-color: #fb0521;
+    padding: 5px;
+}
+
+aside{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #06bba0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+.spanuso {
+    color: #008000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.boton{
+    background-color: #06bba0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #0000005b;
+}
+
+
+.information{
+    width: 15%;
+    float: left;
+    display: block;
+}
+
+#logo{
+    border-radius: 50%;
+    width: 200px;
+}
+
+#btnBuscar{
+    background-color: #06bba0;
+    color: white;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #0000005b;
+}
+
+
+aside > h2{
+    color: #0080a4;
+}
+
+.footer{
+    width: 60%;
+    margin: 0 auto;
+    border-color: #06bba0;
+    background-color: #06bba0;
+    border-style: solid;
+    display: flex;
+    justify-content:space-evenly;
+}
