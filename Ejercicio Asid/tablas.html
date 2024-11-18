@@ -16,17 +16,22 @@
         <article>
             <table frame="void" rules="rows" border="3px" cellpadding="10px" cellspacing="2px">
                 <caption align="bottom">Tabla de Datos</caption>
+                <colgroup>
+                    <col style="background-color: blueviolet;">
+                    <col>
+                    <col style="background-color: aqua;">
+                </colgroup>
                 <thead>
                     <tr>
-                        <th colspan="2" align="center" width="250px">Nombres</th>
-                        <!-- <th>Apellido</th> -->
+                        <th>Nombres</th>
+                        <th>Apellido</th>
                         <th>Direccion</th>
                         <th>Telefono</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td align="center">Kevin</td>
+                        <td>Kevin</td>
                         <td>Amaguaña</td>
                         <td>Quito</td>
                         <td>0993671805</td>
@@ -63,6 +68,56 @@
                     <td>0000000000</td>
                 </tfoot>
             </table>
+            <br>
+            <table>
+                <colgroup>
+                    <col width="100px" style="background-color: rgb(207, 125, 210);">
+                    <col width="100px" style="background-color: rgb(124, 163, 193);">
+                    <col width="100px" style="background-color: rgb(207, 125, 210)">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">1</td>
+                        <td>2</td>
+                        <td rowspan="4">6</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>    
+            </table>
+        </article>
+
+        <article>
+            <br>
+            <form action="/submit" method="post">
+                <label>Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre"><br>
+                <label>Apellido: </label>
+                <input id="Apellido" type="text" id="apellido" name="apellido" placeholder="apellido"><br>
+                <label>Correo: </label>
+                <input type="email" id="email" name="email" placeholder="correo"><br>
+                <label>Contrasena: </label>
+                <input type="password" maxlength="5" id="password" name="password" placeholder="contrasena"><br>
+                <laber>Tipo Persona:</laber>
+                <select name="tipo" id="tipo">
+                    <option value="estudiante">Estudiante</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Administrativo">Administrativo</option>
+                </select><br><br>
+                <label>Comentario: </label>
+                <textarea placeholder="Escribe tu comentario aqui"></textarea><br>
+                <input type="submit" value="Enviar Datos">
+            </form>
         </article>
     </section>
 </body>
