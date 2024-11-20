@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Tienda Virtual</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tienda Virtual</h1>
+        <nav>
+            <a href="#ropa">Ropa</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#zapato">Zapatos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="categoria">
+            <aside>
+                <h3>Categorias</h3>
+                <a href="#ropa"><button>Ropa</button></a><br>
+                <a href="#tecnologia"><button>Tecnologia</button></a><br>
+                <a href="#zapato"><button>Zapatos</button></a><br>
+            </aside>
+        </div>
+
+        <div class="contenido">
+            <figure>
+                <img id="ropa" src="img/chompa.jpg" alt="ropa1" style="width: 200px; height: 200px;">
+                <figcaption>
+                    <h2>Chompa</h2>
+                    <p>Chompa de vestir para hombre</p>
+                    <p>$50.00</p>
+                    <button class="btnComprar">Comprar</button>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/pantalon.png" alt="ropa2" style="width: 200px; height: 200px;">
+                <figcaption>
+                    <h2>Pantalon</h2>
+                    <p>Pantalon de vestir para hombre</p>
+                    <p>$50.00</p>
+                    <button class="btnComprar">Comprar</button>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img id="tecnologia" src="img/alexa.png" alt="ropa3" style="width: 200px; height: 200px;">
+                <figcaption>
+                    <h2>Alexa</h2>
+                    <p>Parlante Alexa 5ta Generacion</p>
+                    <p>$50.00</p>
+                    <button class="btnComprar">Comprar</button>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img id="zapato" src="img/adidas.jpg" alt="ropa4" style="width: 200px; height: 200px;">
+                <figcaption>
+                    <h2>Zapatos</h2>
+                    <p>Zapato Adidas Campus para hombre</p>
+                    <p>$50.00</p>
+                    <button class="btnComprar">Comprar</button>
+                </figcaption>
+            </figure>
+
+
+        </div>
+
+        <div class="servicio-cliente">
+            <div class="sc-title">
+                <p>Sercivio al Cliente</p>
+            </div>
+            <img src="img/servicio.jpg" alt="telefono" width="100px">
+            <textarea name="customerMessage" placeholder="Escribe tu mensaje"></textarea><br>
+            <button type="button">Enviar</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h3 id="contacto">Sobre Nosotros</h3>
+        <p>Somos una tienda virtual dedicada a ofrecer los mejores productos de ropa</p>
+        <h3>Siguenos</h3>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="img/fb.png" alt="facebook" style="width: 20px; height: 20px;">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="img/ig.png" alt="instagram" style="width: 40px; height: 20px;">
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank">
+            <img src="img/wt.png" alt="WhatsApp" style="width: 20px; height: 20px;">
+        </a><br>
+        <button class="btnInventario" onclick="window.open('tablas.html', '_blank')">Ver Tabla btnInventario</button>
+        
+    </div>
+</body>
+
+</html>
