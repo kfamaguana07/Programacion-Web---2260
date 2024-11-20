@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #3aab4b;
     color: #fff;
     text-align: center;
+    padding: 10px;
+    width: 100%;
 }
 
 
@@ -26,11 +34,10 @@ h3 {
     text-align: center;
     background: rgb(251,251,251);
     background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(134,141,152,1) 100%, rgba(120,120,120,1) 100%, rgba(0,0,0,1) 100%);
-
 }
 
 .contenido {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px;
     float: right;
@@ -39,7 +46,7 @@ h3 {
 
 .categoria {
     width: 300px;
-    height: 1800px;
+    height: 1300px;
     float: left;
     display: flex;
     background-color: rgba(0, 0, 0, 0.803);
@@ -70,19 +77,6 @@ button {
 }
 
 
-.aside1 {
-    width: 20%;
-    height: 500px;
-    height: 100px;
-    background-color: #ab3a3a;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
 .btnInventario{
     cursor: pointer;
     width: 250px;
@@ -103,4 +97,10 @@ button {
     border-radius: 20px;
 }
 
+#tecnologia{
+    background-color: hsl(0, 0%, 100%);
+}
 
+#pant{
+    background-color: hsl(0, 0%, 100%);
+}
