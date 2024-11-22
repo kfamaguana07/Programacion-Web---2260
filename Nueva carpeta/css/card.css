@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #535066;
+}
+
+.card{
+    box-shadow: #000 0px 0px 15px;
+    margin: auto;
+    margin-top: 130px;
+    height: 500px;
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.card-header{
+    height: 250px;
+    background-image: url("https://placehold.jp/3d4070/ffffff/1500x1500.png");
+}
+
+h4{
+    color: tomato;
+}
+
+.card-cont{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+
+.size{
+    margin-top: 25px;
+}
+
+.color{
+    margin-top: 30px;
+}
+
+.red{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    color: red;
+    width: 10px;
+    height: 10px;
+}
+
+.green{
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 50%;
+    color: green;
+    width: 10px;
+    height: 10px;
+}
+
+.yellow{
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 50%;
+    color: yellow;
+    width: 10px;
+    height: 10px;
+}
+
+.blue{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 50%;
+    color: blue;
+    width: 10px;
+    height: 10px;
+}
