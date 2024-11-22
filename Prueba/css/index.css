@@ -34,6 +34,7 @@ h3 {
     text-align: center;
     background: rgb(251,251,251);
     background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(134,141,152,1) 100%, rgba(120,120,120,1) 100%, rgba(0,0,0,1) 100%);
+    position: relative;
 }
 
 .contenido {
@@ -85,15 +86,16 @@ button {
 
 }
 
-.servicio-cliente {
+
+.ChatBot {
     width: 20%;
     height: 200px;
     background-color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     border-radius: 20px;
 }
 
