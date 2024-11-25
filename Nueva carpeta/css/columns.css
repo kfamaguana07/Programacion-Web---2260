@@ -1,0 +1,15 @@
+#noticias{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+
+    /* Creacion de columnas para el elemento article */
+    column-count: 4;
+    column-gap: 20px;
+
+    column-rule-style: dotted;
+    column-rule-color: blue;
+    column-rule-width: 5px;
+    /* Es lo mismo de arriba solo que menos lineas */
+    column-rule: 5px dotted blue;
+}
