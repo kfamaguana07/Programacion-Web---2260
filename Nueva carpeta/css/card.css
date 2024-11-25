@@ -119,3 +119,9 @@ h4{
     height: 10px;
     display: inline-block;
 }
+
+body:has(.tituloProducto:hover){
+    background-color: black;
+    transition: background-color 0.6s ease;
+
+}
