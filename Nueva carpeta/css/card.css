@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
 }
 
 body{
@@ -22,6 +21,35 @@ body{
 .card-header{
     height: 250px;
     background-image: url("https://placehold.jp/3d4070/ffffff/1500x1500.png");
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;   
+}
+
+.card-header h2 {
+    position: absolute;
+    color: transparent;
+    z-index: 1;
+}
+
+.card-header h2:hover {
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-header h2:hover ~ .card-img {
+    transform: translateX(10px);
+}
+
+.card-img{
+    height: 250px;
+    transition: transform 0.5s ease, filter 0.5s ease; /* Transiciones para el efecto */
 }
 
 h4{
@@ -31,6 +59,17 @@ h4{
 .card-cont{
     font-family: 'Times New Roman', Times, serif;
     padding: 40px;
+}
+
+.card-cont-precio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    color: #4977db;
+    font-weight: bold;
+    padding: 5px 10px 0px 0px;
 }
 
 .size{
@@ -48,6 +87,7 @@ h4{
     color: red;
     width: 10px;
     height: 10px;
+    display: inline-block;
 }
 
 .green{
@@ -57,6 +97,7 @@ h4{
     color: green;
     width: 10px;
     height: 10px;
+    display: inline-block;
 }
 
 .yellow{
@@ -66,6 +107,7 @@ h4{
     color: yellow;
     width: 10px;
     height: 10px;
+    display: inline-block;
 }
 
 .blue{
@@ -75,4 +117,5 @@ h4{
     color: blue;
     width: 10px;
     height: 10px;
+    display: inline-block;
 }
