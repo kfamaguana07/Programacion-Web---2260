@@ -8,7 +8,7 @@ nav {
     background-color: #5895ff;
     color: white;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     padding-left: 100px;
 }
 
@@ -55,7 +55,7 @@ footer {
     width: 100px;
 }
 
-.info-personal {
+.Info {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -65,7 +65,7 @@ footer {
     padding: 10px 60px 10px 10px;
 }
 
-.date-first-article {
+.PrimeraNoticia_Date {
     position: relative;
     top: 40px;
     left: -400px;
@@ -80,7 +80,7 @@ footer {
     width: 80px;
 }
 
-.date-second-article {
+.SegundaNoticia_Date {
     position:   relative;
     top: 10px;
     left: -400px;
@@ -96,10 +96,10 @@ footer {
 
 }
 
-.noticia-2-header{
+.SegundaNoticia_Header{
     display: flex;
 }
-.noticia-1-header{
+.PrimeraNoticia_Header{
     display: flex;
 }
 
@@ -111,7 +111,7 @@ footer {
     font-size: 15px;
 }
 
-.noticia-1-body{
+.PrimeraNoticia_Body{
     display: flex;
     flex-wrap: wrap;
     align-items: left;
@@ -126,7 +126,7 @@ footer {
 }
 
 
-.noticia-2-body{
+.SegundaNoticia_Body{
     display: flex;
     flex-wrap: wrap;
     align-items: left;
