@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #5895ff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+header {
+    background-color: #345ca1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #345ca1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}   
+
+.noticias {
+    width: 60%;
+    padding: 20px 0px 0px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* Creacion de columnas para el elemento article */
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    float: left;
+}
+
+.noticias h3{
+    color: #345ca1;
+}
+
+.noticias img{
+    width: 100px;
+}
+
+.info-personal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 60px 10px 10px;
+}
+
+.date-first-article {
+    position: relative;
+    top: 40px;
+    left: -400px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: #345ca1;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+}
+
+.date-second-article {
+    position:   relative;
+    top: 10px;
+    left: -400px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: #345ca1;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+
+}
+
+.noticia-2-header{
+    display: flex;
+}
+.noticia-1-header{
+    display: flex;
+}
+
+.date-number {
+    font-size: 25px;
+}
+
+.date-day{
+    font-size: 15px;
+}
+
+.noticia-1-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.item0-n1 {
+    flex: 10 10 300px;
+}
+
+.item1-n1, .item1-n1, .item1-n1 {
+    flex: 1 1 100px;
+}
+
+
+.noticia-2-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.item0-n2 {
+    flex: 10 10 300px;
+}
+
+.item1-n2, .item1-n2, .item1-n2 {
+    flex: 1 1 100px;
+}
