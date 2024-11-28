@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b7ecf3;
+    height: 100%;
+}
+
+@keyframes cambiocolores{
+    0%{
+        background-color: #b56612;
+    }
+
+    25%{
+        background-color: #29af17;
+        transform: scale(0.5);
+    }
+
+    50%{
+        background-color: #265088;
+        transform: scale(5.1);
+        border-radius: 20%;
+    }
+
+    75%{
+        background-color: #29af17;
+        transform: scale(0.5);
+    }
+
+    100%{
+        background-color: #b56612;
+    }
+} 
+   
+.circulo{
+    background-color: #b56612;
+    width: 100px;
+    height: 10px;
+    /* border-radius: 50%; */
+
+    animation-name:volar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes volar {
+    0%{}
+
+    20%{
+        transform: translate(200px, 200px) rotate(90deg);
+    }
+
+    30%{
+        transform: translate(200px, 0px) rotate(180deg);
+    }
+
+    40%{
+        transform: translate(200px, 200px) rotate(90deg);
+    }
+
+    50%{
+        transform: translate(200px, 200px) rotate(180deg);
+    }
+
+    100%{};   
+}
+
+/* .avion{
+    animation-name: volar;
+    animation-duration: 1s;
+} */
+

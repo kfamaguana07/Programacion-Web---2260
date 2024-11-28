@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b7ecf3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolita{
+    background-color: #b56612;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    animation-name: volar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.paleta{
+    background-color: #b56612;
+    width: 120px;
+    height: 20px;
+
+    animation-name: volarPaleta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes volarPaleta {
+    0%{
+        transform: translate(0px, 200px);
+    }
+    
+    25%{
+        transform: translate(150px, 200px);
+    }
+
+    50%{
+        transform: translate(300px, 200px);
+    }
+
+    75%{
+        transform: translate(150px, 200px);
+    }
+
+    100%{
+        transform: translate(0px, 200px);
+    }
+}
+
+@keyframes volar {
+
+    25%{
+        transform: translate(200px, 205px) rotate(0deg);
+    }
+
+    50%{
+        transform: translate(400px, 0px) rotate(0deg);
+    }
+
+    75%{
+        transform: translate(200px, 205px) rotate(0deg);
+    }
+
+    100%{
+        transform: translate(0px, 0px) rotate(0deg);
+    }  
+}
+
+.container{
+    background-color: black;
+    height: 250px;
+    width: 430px;
+    border-radius: 10px;
+}

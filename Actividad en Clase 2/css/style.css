@@ -39,9 +39,6 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.323);
     margin-top: 20px;
     margin-bottom: 20px;
-
-    /* Creacion de columnas para el elemento article */
-    
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     float: left;
@@ -122,7 +119,7 @@ footer {
 }
 
 .item1-n1, .item1-n1, .item1-n1 {
-    flex: 1 1 100px;
+    flex: 2 2 100px;
 }
 
 
