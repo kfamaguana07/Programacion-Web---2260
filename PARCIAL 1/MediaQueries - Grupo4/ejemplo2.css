@@ -1,0 +1,41 @@
+body {
+    background-color: #f4f4f4;
+}
+
+
+i {
+    font-size: 50px;
+    color: rgb(15, 172, 78); 
+}
+
+
+
+@keyframes animation-container {
+    0% {
+        transform: translateY(0); /
+    }
+    50% {
+        transform: translateY(-100px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+
+
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 60px;
+        background-color: #1db47c;
+    }
+}
+
+
+@media (max-width: 700px) {
+    body {
+        font-size: 60px;
+        background-color: #3115e5;
+    }
+}
