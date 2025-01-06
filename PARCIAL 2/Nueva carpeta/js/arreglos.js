@@ -161,3 +161,64 @@ console.log(promedioGeneral);
 
 console.log(`Estudiante con el peor promedio: ${peorEstudiante.nombre} con un promedio de ${peorEstudiante.promedio}`);
 console.log(`Estudiante con el mejor promedio: ${mejorEstudiante.nombre} con un promedio de ${mejorEstudiante.promedio}`);
+
+
+
+//agregar elementos a un arreglo
+
+//push() agrega un elemento al final del arreglo
+
+let p = [1, 2, 3, 4];
+p.push(5);
+console.log(p);
+
+//unshift() agrega un elemento al inicio del arreglo
+let u = [1, 2, 3, 4];
+u.unshift(5);
+console.log(u);
+
+
+//splice() agrega un elemento en una posicion especifica del arreglo
+let s = [1, 2, 3, 4];
+s.splice(1, 0, 5);  // Agrega el numero 5 en la posicion 1
+console.log(s);
+
+
+//Modificar elementos de un arreglo
+//Podemos acceder a un elemento directamnerte por su indice y modificarlo
+let i = ["Ana", "Juan", "Pedro", "Jose"];
+i[2] = "Maria";  //Modifica el valor en la posicion 2
+console.log(i);
+
+// Si deseamos modificar el arreglo de forma inmutable, podemos utilizar el metodo map()
+//let metodo map() = Crea un nuevo arreglo con los valores modificados
+
+//let arregloMap = ['azul', 'amarillo', 'rojo', 'negro'];
+let arregloMap = [10, 23, 35, 26];
+let arregloNuevo = arregloMap.map(num=> num === 10 ? 5: num)
+console.log(arregloNuevo)
+
+//splice() tambien se puede utilizar
+let z = [1, 2, 3];
+z.splice(1, 1, 5);
+console.log(z);
+
+
+//Eliminar elementos de un array
+
+//pop() elimina el ultimo elemento de un arreglo
+let arreglosE = ["Azul", "Amarillo", "Rojo", "Negro"]
+arreglosE.pop()
+console.log(arreglosE);
+
+//shift() elimina el primer elemento de un array
+let arreglosS = ["Azul", "Amarillo", "Rojo", "Negro"]
+arreglosS.shift()
+console.log(arreglosS);
+
+
+//Splice() para eliminar cualquier elemento dentro de un arreglo
+let arregloSP = ["Azul", "Amarillo", "Rojo", "Negro"]
+arregloSP.splice(1, 3)
+console.log(arregloSP);
+

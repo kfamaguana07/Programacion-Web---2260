@@ -317,3 +317,6 @@ if(isNaN(minumero2)){
 }
 console.log(isNaN(minumero2)); //No es un numero
 console.log(minumero2); //No es un numero
+
+
+
