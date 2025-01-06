@@ -1,11 +1,13 @@
 //Crea una funcion declara llamada calcularPromedio que reciba tres numeros como parametros y retorne su promedio
 function calcularPromedio(a, b, c) {
+    if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number') {
     return (a + b + c) / 3; 
 }
 console.log(calcularPromedio(3, 6, 9));
 
 //Declara una funcion expresada llamada determinarMayor que reciba dos numeroms como parametros y retorne el mayor
 const determinarMayor = function(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
     return a > b ? a : b;
 }
 console.log(determinarMayor(5, 10));
