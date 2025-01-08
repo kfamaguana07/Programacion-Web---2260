@@ -1,24 +1,24 @@
 //Crear Inventario de productos
 const inventario = {
     producto1: {
-        nombreProducto: 'Laptop',
-        precio: 1000,
-        cantidad: 10
+        nombreProducto: 'Sandia',
+        precio: 5,
+        cantidad: 55
     },
     producto2: {
-        nombreProducto: 'Smartphone',
-        precio: 500,
-        cantidad: 20
+        nombreProducto: 'Guanabana',
+        precio: 7.50,
+        cantidad: 30
     },
     producto3: {
-        nombreProducto: 'Tablet',
-        precio: 300,
-        cantidad: 15
+        nombreProducto: 'Coco',
+        precio: 4,
+        cantidad: 200
     },
     producto4: {
-        nombreProducto: 'Monitor',
-        precio: 200,
-        cantidad: 8
+        nombreProducto: 'Pitahaya',
+        precio: 8,
+        cantidad: 40
     }
 };
 
@@ -57,9 +57,10 @@ function aplicarDescuento(porcentaje) {
 }
 
 //Vender
-venderProducto('Laptop', 2);
-venderProducto('Smartphone', 5);
-venderProducto('Tablet', 1);
+venderProducto('Coco', 25);
+venderProducto('Sandia', 5);
+venderProducto('Pitahaya', 18);
+venderProducto('Guanabana', 10);
 
 //Descuento
 aplicarDescuento(10);
