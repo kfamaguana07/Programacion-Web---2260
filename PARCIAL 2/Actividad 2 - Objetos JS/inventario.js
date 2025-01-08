@@ -53,8 +53,7 @@ function aplicarDescuento(porcentaje) {
         let nuevoPrecio = inventario[clave].precio * (1 - porcentaje / 100);
         inventario[clave].precio = nuevoPrecio < 0 ? 0 : nuevoPrecio;
     }
-    console.log('Descuento aplicado:', inventario);
-}
+ }
 
 //Vender
 venderProducto('Coco', 25);
