@@ -86,16 +86,6 @@ class Venta {
         console.log(`Venta realizada: ${cantidad} unidades de ${nombreProducto} el ${fechaHora}.`);
     }
 
-    // Generar reporte de ventas
-    generarReporteVentas() {
-        console.log("Ventas realizadas:");
-        for (let i = 0; i < this.ventasRealizadas.length; i++) {
-            const venta = this.ventasRealizadas[i];
-            const fechaHora = new Date(venta.fechaHora);
-            console.log(`Producto: ${venta.nombreProducto}, Cantidad: ${venta.cantidad}, Precio: $${venta.precio}, Fecha y Hora: ${fechaHora.toLocaleString()}`);
-        }
-    }
-
     // Calcular ingresos totales
     calcularIngresosTotales() {
         return this.ventasRealizadas.reduce((total, venta) => total + venta.cantidad * venta.precio, 0);
