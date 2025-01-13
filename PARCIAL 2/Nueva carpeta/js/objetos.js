@@ -171,79 +171,6 @@ let personaString = JSON.stringify(persona5);
 console.log(personaString);
 
 
-//Crear el inventario inicial: Define un objeto que contenga al menos 4 productos con las propiedades: nombre, precio, y cantidad
-const inventario = {
-    producto1: {
-        nombreProducto: 'Laptop',
-        precio: 1000,
-        cantidad: 10
-    },
-    producto2: {
-        nombreProducto: 'Smartphone',
-        precio: 500,
-        cantidad: 20
-    },
-    producto3: {
-        nombreProducto: 'Tablet',
-        precio: 300,
-        cantidad: 15
-    },
-    producto4: {
-        nombreProducto: 'Monitor',
-        precio: 200,
-        cantidad: 8
-    }
-};
-
-
-//Sellar el inventario
-Object.seal(inventario);
-
-
-//función para vender un producto:
-//La función debe aceptar el nombre del producto y la cantidad a vender.
-//Si el producto existe y tiene suficiente stock, reduce la cantidad en el inventario y muestra un mensaje confirmando la venta.
-//Si el producto no existe o no tiene suficiente stock, muestra un mensaje de error.
-function venderProducto(nombreProducto, cantidad) {
-    for (let clave in inventario) {
-        if (inventario[clave].nombreProducto === nombreProducto) {
-            if (inventario[clave].cantidad >= cantidad) {
-                inventario[clave].cantidad -= cantidad;
-                console.log(`Venta exitosa: ${cantidad} ${nombreProducto}(s) vendidos.`);
-            } else {
-                console.log(`Error: No hay suficiente stock de ${nombreProducto}.`);
-            }
-            return;
-        }
-    }
-    console.log(`Error: El producto ${nombreProducto} no existe en el inventario.`);
-}
-
-//Implementa una función para aplicar un descuento a todos los productos:
-//La función debe aceptar un porcentaje de descuento y reducir el precio de todos los productos en base a este porcentaje.
-//Asegúrate de que los precios no sean negativos.
-//Usa las funciones creadas:
-function aplicarDescuento(porcentaje) {
-    for (let clave in inventario) {
-        let nuevoPrecio = inventario[clave].precio * (1 - porcentaje / 100);
-        inventario[clave].precio = nuevoPrecio < 0 ? 0 : nuevoPrecio;
-    }
-    console.log('Descuento aplicado:', inventario);
-}
-
-//Vende algunos productos.
-venderProducto('Laptop', 2);
-venderProducto('Smartphone', 5);
-venderProducto('Tablet', 1);
-
-//Aplica un descuento del 10% a todo el inventario.
-aplicarDescuento(10);
-
-//Muestra el inventario final utilizando console.log().
-console.log(inventario);
-
-
-
 
 //Metodo GET en objetos de JS
 //Metodos que se usan a manera de buenas practicas que permiten acceder y modificar objetos
@@ -385,7 +312,8 @@ console.log(personaCallP1.nombreCompleto.call(personaCallP2, 'Ing.', '0999999999
 
 
 
-//Uso de Apply
+//Uso de Apply 
+//Similar a call pero los parametros se pasan en un arreglo
 let personaApply1 = {
     nombre: 'Vinicius',
     apellido: 'Junior',

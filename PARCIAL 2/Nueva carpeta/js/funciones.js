@@ -5,6 +5,7 @@
 //Funciones en JavaScript
 
 //Funcion declaracion
+//Es una funcion que se declara con la palabra reservada function y se le asigna un nombre
 
 function miFuncion(a, b) {
     console.log('La suma es: ' + (a + b));
@@ -19,16 +20,18 @@ function miReturn(a, b) {
 let resultado = miReturn(4, 5);
 console.log(resultado);
 
+
 //Funcion de tipo expresion
-//Declaracion de una funcion que es igual a una expresion
+//Declaracion de una funcion que es igual a una expresion y se le asigna a una variable
 let sumar = function(a, b) {return a*b;}
 
 resultado = sumar(2, 4);
 console.log(typeof sumar);
 console.log(resultado);
 
+
 //Funciones de tipo self-invoking
-//Porque son funciones que se invocan a si mismas
+//Porque son funciones que se invocan a si mismas y no necesitan ser llamadas
 
 //Funciones anonimas
 //No son muy comunes pero pueden ser utiles en algunas cosas
@@ -52,8 +55,10 @@ const persona = {
 console.log(persona.saludar());
 
 
+
 //Funciones tipo flecha ()
 //Se mantiene como una forma concisa de delcarar funciones y es amplicamente utilizada en el desarrollo de aplicaciones web
+// La funcion flecha es una forma mas corta de escribir una funcion
 const sumarValores = (a, b) => a+b;
 console.log(sumarValores(5, 7));
 
