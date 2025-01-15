@@ -89,7 +89,7 @@ class Orden {
 
     aplicarDescuento(producto) {
         let descuento = 0;
-        if (producto.Categoria === 'electronica') {  // Comparación directa sin toLowerCase
+        if (producto.Categoria === 'electronica') {
             descuento = producto.Precio * 0.10;
         }
         return producto.Precio - descuento;
