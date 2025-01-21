@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .titles{
+            color:blueviolet;
+        }
+    </style>
+    <title>Formularios de DOM en JS</title>
+</head>
+<body>
+    
+    <!-- 
+    <form id="formulario">
+        Nombre: <input type="text" name="nombre" value="Juan">
+        <br>
+        Apellido: <input type="text" name="apellido" value="apellido">
+        <br>
+        Email: <input type="email" name="mail" value="jp@espe.edu.ec">
+    </form>
+    <button id="btnMostrar" onclick="mostrarValores()" type="submit" >mostrarValores</button>
+    <br>
+    <div id="valores">
+
+    </div>
+
+   <script>
+
+        function mostrarValores(){
+            let formulario = document.forms["formulario"];
+            let texto = " ";
+
+            for (const element of formulario) {
+                texto += element.value + "<br>";
+            }
+            document.getElementById('valores').innerHTML = texto;
+
+            //de manera individual, es decir sin iterar
+            let nombre = formulario["nombre"];
+            let apellido = formulario["apellido"];
+            let mail = formulario["email"];
+
+            texto = nombre.value + "<br> " + apellido.value + "<br> " + mail.value + "<br> ";
+            document.getElementById('valores').innerHTML = texto;
+        } 
+            -->
+
+        <h1 id="titulo" class="titles">manejo de DOM con JS</h1>
+        <h1 id="titulo 2" class="titles">manejo de DOM con JS</h1>
+        <button id="btnMostrar" onclick="mostrar()" type="submit">Mostrar</button>
+        <br>
+        <img src="img/angular.png" alt="">
+        <div id="valores">
+
+        </div>
+
+        <script>
+
+            // //document.write("Saludos desde Write");
+            // function mostrar(){
+            //     let elementos = document.getElementsByClassName('titles');
+            //     for (const element of elementos) {
+            //         element.innerHTML = "<br>Nuevo valor";
+            //     }
+            // }
+
+            // function mostrar(){
+            //     document.getElementById('imagen').src = "Nimg/angular.png";
+            // }
+
+
+
+
+        //crear una funcion que permita el cambio de una imagen cada 2 o 3 segundos  utilisando setInterval, setTimeout
+        let imagenes = 0;
+        const rutas = ["img/angular.png", "img/speed.png", "img/speddyjorge.png"];
+
+        function mostrarImagen() {
+            imagenes = (imagenes + 1) % rutas.length;
+            document.querySelector('img').src = rutas[imagenes];
+        }
+
+        setInterval(mostrarImagen, 2000);
+
+        </script>
+        
+    </script>
+</body>
+</html>
