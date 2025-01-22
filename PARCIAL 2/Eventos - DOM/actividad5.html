@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control Interactivo</title>
+</head>
+<body>
+    <h1 id="tituloPrincipal">Panel de Control Interactivo</h1>
+
+    <button id="btnMostrarPanel">Mostrar Panel</button>
+    <div id="panelConfi" style="display: none;">
+        <h2>Panel de Configuración</h2>
+        <label for="nuevoTitulo">Nuevo título:</label>
+        <input type="text" id="nuevoTitulo" placeholder="Escribe un nuevo título">
+    </div>
+
+    <br><br>
+
+    <label for="temaSelect">Selecciona un tema:</label>
+    <select id="temaSelect">
+        <option value="claro">Claro</option>
+        <option value="oscuro">Oscuro</option>
+        <option value="azul">Azul</option>
+    </select>
+
+    <script>
+    document.getElementById('btnMostrarPanel').addEventListener('click', (evento) => {
+        let panelDisplay = document.getElementById('panelConfi').style.display;
+        
+        if (panelDisplay === 'none' || panelDisplay === '') {
+            document.getElementById('panelConfi').style.display = 'block';
+            evento.target.innerHTML = 'Ocultar Panel';
+        } else {
+            document.getElementById('panelConfi').style.display = 'none';
+            evento.target.innerHTML = 'Mostrar Panel';
+        }
+    });
+
+    document.getElementById('temaSelect').addEventListener('change', (evento) => {
+        let tema = evento.target.value;
+        
+        if (tema === 'claro') {
+            document.body.style.backgroundColor = 'white';
+            document.body.style.color = 'black';
+        } else if (tema === 'oscuro') {
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+        } else if (tema === 'azul') {
+            document.body.style.backgroundColor = 'blue';
+            document.body.style.color = 'white';
+        }
+    });
+
+    document.getElementById('nuevoTitulo').addEventListener('input', (evento) => {
+        document.getElementById('tituloPrincipal').innerText = evento.target.value;
+    });
+    </script>
+</body>
+</html>
