@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de eventos con DOM en JS</title>
+</head>
+<body onload="entrar()">
+    <!-- <h1 id="titulo" onclick="this.innerHTML = 'Nuevo Texto Ingresado' "> Evento onclick</h1> -->
+    <!-- no es muy recomendable usar el evento onclick en el html -->
+
+    <!-- <h1 id="titulo" onclick=mostrar(this)> Evento onclick</h1> -->
+    <!-- <button type="button" id="btnMostrar" onclick="mostrar(document.getElementById('titulo'))">Mostrar</button>    -->
+    <br><br>
+    <!-- Nombre: <input type="text" onchange="convertir(this)"> -->
+
+
+    <h1 id="titulo" onmouseover="rojo(this)" onmouseout="azul(this)"> Eventos</h1> 
+    <h1 id="titulo" onmousedown="rojo(this)" onmouseup="azul(this)"> Eventos</h1>
+
+    <br><br>
+
+    
+    <h1 id="titulo">Eventos onfocus y onblur</h1>
+    Nombre: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+
+    
+    <h1 id="titulo">Eventos addListener </h1>
+    Nombre: <input type="text"id="nombre"><br>
+    Apellido: <input type="text"id="apellido"><br>
+    <br><br>
+
+    <h1>Formulario</h1>
+    <form action="" method="get" id="formulario">
+        Nombre: <input type="text"id="nombre"><br>
+        Apellido: <input type="text"id="apellido"><br>
+    </form>
+
+
+
+    <script>
+        
+        // // function mostrar(){
+        // //     let titulo = document.getElementById('titulo'); //obtengo el elemento por su id
+        // //     titulo.innerHTML = 'Nuevo Texto Ingresado';
+        // // }
+        // function mostrar(titulo){
+        //     console.log(titulo);
+        //     titulo.innerHTML = 'Nuevo Texto Ingresado';
+        // }
+
+
+
+        // document.getElementById('titulo').onclick = cambiarTexto;
+        // //estamos haciendo referencia, no estamos llamando a la funcion
+        // //Funcion de tipo CallBack
+
+        // function cambiarTexto(){
+        //     document.getElementById('titulo').innerHTML = 'Otro nuevo cambio en el titulo';
+        // }
+
+
+        // //esto funciona con onload
+        // function entrar(){
+        //     alert('Bienvenido a la pagina');
+        // }
+
+
+        // //cookies 
+        // //Son archivos que guardan informacion cuando navegamos en la web
+        // //Verificar que las cookies estan habilitadas en el navegador es lo siguiente:
+        // let texto = "";
+        // if(navigator.cookieEnabled){
+        //     texto = "Cookies habilitadas";
+        // }else{
+        //     texto = "Cookies deshabilitadas";
+        // }
+        // document.getElementById('Mostrar').innerHTML = texto;
+
+
+
+        // function convertir(input){
+        //     input.value = input.value.toUpperCase();
+        // }
+
+
+        // //Cambiar de rojo a azul
+        // function rojo(titulo){
+        //     titulo.style.color = 'red';
+        // }
+
+        // function azul(titulo){
+        //     titulo.style.color = 'blue';
+        // }
+
+        document.getElementById('nombre').addEventListener('focus',(evento) => {
+            evento.target.style.backgroundColor = 'yellow';
+        });    //funcion callback
+        document.getElementById('nombre').addEventListener('blur', (evento) => {
+            evento.target.style.backgroundColor = '';
+        });
+        document.getElementById('apellido').addEventListener('focus', (evento) => {
+            evento.target.style.backgroundColor = 'yellow';
+        });
+        document.getElementById('apellido').addEventListener('blur', (evento) => {
+            evento.target.style.backgroundColor = '';
+        });
+
+
+        let formulario = document.getElementById('formulario');
+        formulario.addEventListener('focus', (evento) => {
+            evento.target.style.backgroundColor = 'yellow';
+        }, true); 
+
+        formulario.addEventListener('blur', (evento) => {
+            evento.target.style.backgroundColor = '';
+        }, true);
+
+        // function cambiar(elementInput) {
+        //     elementInput.style.backgroundColor = "yellow";
+        // }
+        // function regresar(elementInput) {
+        //     elementInput.style.backgroundColor = "white";
+        // }
+
+
+        function cambiar(evento) {
+            let component = evento.target;
+                component.style.backgroundColor = "yellow";
+        }
+        function regresar(evento) {
+            let component = evento.target;
+                component.style.backgroundColor = "write";
+        }
+
+
+    </script>
+    
+</body>
+</html>
