@@ -1,0 +1,45 @@
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.deps.json
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
+C:\Users\dalex\source\repos\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.deps.json
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
+C:\Users\Usuario\Downloads\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.deps.json
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.dll
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.pdb
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
+C:\Users\pcsus\Downloads\MiPrimeraAPP\MiPrimeraAPPAspNetCoreBusqueda\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.deps.json
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.dll
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\bin\Debug\net9.0\CapaEntidad.pdb
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfoInputs.cache
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.AssemblyInfo.cs
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.csproj.CoreCompileInputs.cache
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.sourcelink.json
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.dll
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\refint\CapaEntidad.dll
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\CapaEntidad.pdb
+D:\ESPE\CUARTO SEMESTRE\Programacion Web\Programacion-Web---2260\PARCIAL 3\MiPrimeraAPPAspNetCore\CapaEntidad\obj\Debug\net9.0\ref\CapaEntidad.dll

@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87BD0DFF-FC3F-4413-8E4A-E9A92BC19871}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|d:\\espe\\cuarto semestre\\programacion web\\programacion-web---2260\\parcial 3\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BD0DFF-FC3F-4413-8E4A-E9A92BC19871}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\views\\sucursal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6215589-A829-4C3B-B4D0-34753C7D359A}|CapaDatos\\CapaDatos.csproj|d:\\espe\\cuarto semestre\\programacion web\\programacion-web---2260\\parcial 3\\miprimeraappaspnetcore\\capadatos\\sucursaldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6215589-A829-4C3B-B4D0-34753C7D359A}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\sucursaldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6215589-A829-4C3B-B4D0-34753C7D359A}|CapaDatos\\CapaDatos.csproj|d:\\espe\\cuarto semestre\\programacion web\\programacion-web---2260\\parcial 3\\miprimeraappaspnetcore\\capadatos\\laboratoriodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6215589-A829-4C3B-B4D0-34753C7D359A}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\laboratoriodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E767E12-79FA-448C-BCCA-6795BC0C9590}|CapaNegocio\\CapaNegocio.csproj|d:\\espe\\cuarto semestre\\programacion web\\programacion-web---2260\\parcial 3\\miprimeraappaspnetcore\\capanegocio\\sucursalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E767E12-79FA-448C-BCCA-6795BC0C9590}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\sucursalbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BD0DFF-FC3F-4413-8E4A-E9A92BC19871}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|d:\\espe\\cuarto semestre\\programacion web\\programacion-web---2260\\parcial 3\\miprimeraappaspnetcore\\miprimeraappaspnetcore\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BD0DFF-FC3F-4413-8E4A-E9A92BC19871}|MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore.csproj|solutionrelative:miprimeraappaspnetcore\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaboratorioDAL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaDatos\\LaboratorioDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\LaboratorioDAL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaDatos\\LaboratorioDAL.cs",
+              "RelativeToolTip": "CapaDatos\\LaboratorioDAL.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T23:08:36.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SucursalDAL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaDatos\\SucursalDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\SucursalDAL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaDatos\\SucursalDAL.cs",
+              "RelativeToolTip": "CapaDatos\\SucursalDAL.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:56:05.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Views\\Sucursal\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\Views\\Sucursal\\Index.cshtml",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Views\\Sucursal\\Index.cshtml",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\Views\\Sucursal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T22:55:04.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SucursalController.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Controllers\\SucursalController.cs",
+              "RelativeDocumentMoniker": "MiPrimeraAPPAspNetCore\\Controllers\\SucursalController.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\MiPrimeraAPPAspNetCore\\Controllers\\SucursalController.cs",
+              "RelativeToolTip": "MiPrimeraAPPAspNetCore\\Controllers\\SucursalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:54:07.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SucursalBL.cs",
+              "DocumentMoniker": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaNegocio\\SucursalBL.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\SucursalBL.cs",
+              "ToolTip": "D:\\ESPE\\CUARTO SEMESTRE\\Programacion Web\\Programacion-Web---2260\\PARCIAL 3\\MiPrimeraAPPAspNetCore\\CapaNegocio\\SucursalBL.cs",
+              "RelativeToolTip": "CapaNegocio\\SucursalBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:53:12.942Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
